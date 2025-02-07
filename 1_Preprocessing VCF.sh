@@ -28,7 +28,7 @@ find /pathTo/haploSNV/newVCF/haps/ -name "*.hap" | while read SAMPLE
 do
 
 ## Execute R script to seperate haplotypes
-R --vanilla --no-restore --file="/pathTo/haploSNV/create_csv.R" --args $SAMPLE
+R --vanilla --no-restore --file="/pathTo/haploSNV/2_Create_csv.R" --args $SAMPLE
 
 done
 
