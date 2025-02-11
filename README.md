@@ -3,7 +3,7 @@
 This repository contains code to reproduce the analysis of our paper with the titel: 
 ### Fully haplotyped genome assemblies of healthy individuals reveal variability in 5’ss strength and support by splicing regulatory proteins 
 
-Supplementary Data and data used for the analysis can be accessed via zonodo und DOI: X
+Supplementary Data and data used for the analysis can be accessed via zonodo und DOI: 10.5281/zenodo.14730589
 
 First, the large VCF file from the publication was preprocessed into 2 csv tables stating haplotyped sequence variations per individual genome (1_Preprocessing VCF.sh, 2_Create_csv.R)
 
